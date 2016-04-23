@@ -234,7 +234,8 @@ public class TelegramCommandResolverController {
 			JSONArray jsonArray = jsonObject.getJSONArray(Constants.RESPONSEFIELDRESULT);
 
 			update = new Update(jsonArray.getJSONObject(0));
-		}catch(Exception e) {
+			
+		} catch(Exception e) {
 			return "erro - "+e.getMessage();
 		}
 		
