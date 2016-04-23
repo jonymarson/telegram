@@ -224,7 +224,7 @@ public class TelegramCommandResolverController {
 		
 		Map<String, String> params = new HashMap<String, String>();
 		
-		Update update= null;
+		Update update = null;
 
 		
 		try {
