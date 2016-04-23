@@ -1,0 +1,3 @@
+# Module telegram
+# RPC service class, partial path of RPC policy file
+net.firecodeit.telegram.client.GreetingService, 187FEA9F37E49ECCF63C9BDBD59A41EF.gwt.rpc
